@@ -5,6 +5,8 @@ import DynamicContent from "./Components/DynamicContent/DynamicContent.js";
 import AsAttribute from "./Components/Props/AsAttribute/AsAttribute.js";
 import AsChildren from "./Components/Props/AsChildren/AsChildren.js";
 import State from "./Components/State/State.js";
+import InlineStyle from "./Components/Style/InlineStyle/InlineStyle";
+import RefElement from "./Components/RefElement/RefElement.js";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <AsAttribute name="Emma" age="29" />
       <AsChildren> Something as child </AsChildren>
       <State />
+      <InlineStyle />
+      <RefElement />
     </div>
   );
   // return React.createElement('div',{className:"App"}, React.createElement('header',{className:"App-header"},"Hi i am hamidreza nasrollahy")) // equivalent

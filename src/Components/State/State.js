@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import AsAttribute from "../Props/AsAttribute/AsAttribute";
 import PassingMethod from "./PassingMethod/PassingMethod";
 import TwoWayDataBinding from "./TwoWayDataBinding/TwoWayDataBinding";
+import RenderingConditionally from "./RenderingConditionally/RenderingConditionally";
+import ForList from "./ForList/ForList";
 import "./State.css"
 
 function State() {
@@ -32,7 +34,8 @@ function State() {
       />
       <PassingMethod changeStateToHamid={changeStateToHamid} />
       <TwoWayDataBinding changed={forTwoWayDataBinding} />
-      
+      <RenderingConditionally />
+      <ForList />
     </div>
   );
 }
