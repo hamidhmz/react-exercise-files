@@ -7,6 +7,7 @@ import AsChildren from "./Components/Props/AsChildren/AsChildren.js";
 import State from "./Components/State/State.js";
 import InlineStyle from "./Components/Style/InlineStyle/InlineStyle";
 import RefElement from "./Components/RefElement/RefElement.js";
+import ExampleForHigherOrderComponents from "./Components/HigherOrderComponents/ExampleForHigherOrderComponents.js";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <State />
       <InlineStyle />
       <RefElement />
+      <ExampleForHigherOrderComponents />
     </div>
   );
   // return React.createElement('div',{className:"App"}, React.createElement('header',{className:"App-header"},"Hi i am hamidreza nasrollahy")) // equivalent
