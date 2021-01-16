@@ -13,7 +13,7 @@ function ForList() {
     <div>
       <div>==for==</div>
       {dynamicState.persons.map((person) => {
-        return <AsAttribute name={person.name} age={person.age} />;
+        return <AsAttribute key={person.name} name={person.name} age={person.age} />;
       })}
     </div>
   );

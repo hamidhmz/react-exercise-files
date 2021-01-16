@@ -21,10 +21,10 @@ function App() {
       <State />
       <InlineStyle />
       <RefElement />
-      <ExampleForHigherOrderComponents />
+      <ExampleForHigherOrderComponents /> 
     </div>
   );
-  // return React.createElement('div',{className:"App"}, React.createElement('header',{className:"App-header"},"Hi i am hamidreza nasrollahy")) // equivalent
+  // return React.createElement('div',{className:"App"}, React.createElement('header',{className:"App-header"},"Hi i am hamidreza nasrollahy"),React.createElement('header',{className:"App-header"},"Hi i am hamidreza nasrollahy")) // equivalent
 }
 
 export default App;
