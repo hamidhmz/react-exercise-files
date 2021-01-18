@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import ReactMemo from "../ReactMemo/ReactMemo";
 
 function UseEffect(props) {
   useEffect(() => {
@@ -29,6 +30,7 @@ function UseEffect(props) {
       <p>-------------use effect and lifecycle-------------</p>
       <input type="text" value={props.name} />
       <p>-------------use effect and lifecycle-------------</p>
+      <ReactMemo></ReactMemo>
     </div>
   );
 }
