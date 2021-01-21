@@ -41,7 +41,7 @@ function State() {
         age={personState.persons[0].age}
       />
       <PassingMethod changeStateToHamid={changeStateToHamid} />
-      <TwoWayDataBinding changed={forTwoWayDataBinding} />
+      <TwoWayDataBinding changed={forTwoWayDataBinding} name={personState.persons[0].name} />
       <button onClick={changeVisibilityStatus}>Change visibility</button>
       {personState.visible ? (
         <UseEffect name={personState.persons[0].name} />
