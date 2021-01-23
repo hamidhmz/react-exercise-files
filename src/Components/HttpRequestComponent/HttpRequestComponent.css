@@ -1,0 +1,13 @@
+.HttpRequestComponent {
+  border-radius: 10px;
+  background-color: blueviolet;
+}
+
+.product{
+  border: 1px solid #000;
+  width: auto;
+  display: inline-block;
+  width: 900px;
+  margin: 10px;
+  background-color: #fff;
+}
